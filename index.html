@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1d0a114e71.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="notification">
+            <div class="time">9:51</div>
+            <div class="icons"><i class="fa-duotone fa-signal-bars"></i><i class="fa-solid fa-wifi"></i><i class="fa-solid fa-battery-three-quarters"></i></div>
+        </div>
+
+        <div class="temprature-title"> Temprature converter</div>
+        <div class="input_section">
+            <div class="degree">
+                <label for="Degree">Degree</label>
+                <input type="text" name="Degree" id="Degree" class="border-style">
+            </div>
+            <div class="type">
+                <label for="Degree_type">Type</label>
+                <select name="Degree_type" id="Degree_type" class="border-style">
+                    <option value="Fahrenheit">Fahrenheit</option>
+                    <option value="Celcious">Celcious</option>
+                </select>
+            </div>
+        </div>
+        <div class="result"> 
+            <label for="result">Result</label>
+            <input type="text" class="border-style" id="result"></div>
+        <div class="btndiv"> <button type="submit" class="convert-btn">Convert</button></div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

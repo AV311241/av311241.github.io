@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 5px;
+    min-height: 100vh;
+    background-color: rgb(242, 246, 250);
+    /* align-content: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.container{
+    margin-top: 30px;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    /* border: 2px solid black; */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3) ;
+    border-radius: 20px;
+}
+
+.notification{
+    display: flex;
+    justify-content: space-between;
+}
+.time{
+}
+.icons i{
+    margin-left: 3px;
+}
+
+.temprature-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: solid;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.input_section{
+    display: flex;
+}
+
+.border-style{
+    margin-bottom: 10px;
+    border:none;
+    border-bottom-width: 2px;
+    border-bottom-color: silver;
+    border-bottom-style: ridge;
+    padding: 6px 6px;
+
+}
+.border-style:focus{
+    outline: none;
+}
+.btndiv{
+    display: flex;
+}
+.result{
+    display: flex;
+    flex-direction: column;
+}
+
+.border-style{
+   flex: 1; 
+}
+.convert-btn{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    flex: 1;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgba(20, 20, 240, 0.902);
+}
+
+
+label {
+    color: grey;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
